@@ -1,0 +1,116 @@
+/* add blue background color and google font to entire site */
+
+html {
+    background-color: #6A98D9;
+    font-family: 'Muli', sans-serif;
+}
+
+/*CSS to center all the elements in the browser */
+
+#container {
+    width: 960px;
+    margin: auto;
+    background-color: black;
+}
+
+/* CSS for the navigation bar */
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #cfcfe8;  
+    width: 960px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-block;
+    color: #6E5D10;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+/* end of navigation bar */
+
+div {
+    text-align: center;
+    background-color: #f0f0e0;
+    width: 960px;
+}
+
+.one {
+    display: inline-block;
+    width: 50%;
+}
+
+.two {
+    display: inline-block;
+    width: 50%;
+}
+
+
+/* CSS for the images on the Home and Art pages */
+
+img {
+    text-align: center;
+    border: 2px solid navy;
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+}
+
+h1 {
+    color: #1EC9C9;
+}
+
+h3 {
+    color: #3D283D;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#attribution {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* below is the CSS for the three other sections on the site */
+
+/* main and side are only on the home page */
+/* footer is on all three pages */
+
+#main {
+    width: 810px;
+    height: 665px;
+    background-color: #e8e8cf;
+    float: left;
+}
+
+#side {
+    width: 140px;
+    height: 600px;
+    background-color: #E8DCCF;
+    padding-top: 65px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+}
+
+#footer{
+    clear: both;
+    width: 960px;
+    height: 60px;
+    background-color: #cfe8dc;
+    padding-top: 3px;
+}
